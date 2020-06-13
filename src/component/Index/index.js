@@ -5,6 +5,10 @@ import md2 from '../../md/1.md';
 import md3 from '../../md/肯德基&麦当劳早餐费6用于合并.md';
 import './index.css';
 class Index extends Component {
+    componentDidMount(){
+        /* eslint-disable no-undef */
+        console.log(HOST);
+    }
     render() {
        
         return (
