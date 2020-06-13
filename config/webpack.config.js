@@ -1,5 +1,6 @@
 'use strict';
 const envConfig = require('./webpack.env.conf');
+const px2rem = require('postcss-px2rem')
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -100,6 +101,7 @@ module.exports = function(webpackEnv) {
               },
               stage: 3,
             }),
+            px2rem({ remUnit: 75 }),
             // Adds PostCSS Normalize as the reset css with default options,
             // so that it honors browserslist config in package.json
             // which in turn let's users customize the target behavior as per their needs.
