@@ -1,0 +1,14 @@
+/*对 markdown 样式的补充*/
+h1,h2,h3,h4,h5,h6{
+    margin-top: 1em;
+    text-align: center;
+    /* margin-bottom: 1em; */
+}
+p img{
+    /* 图片居中 */
+    margin: 0 auto;
+    display: flex;
+}
+img{
+    height: 300px;
+}
