@@ -1,0 +1,85 @@
+.mobilele-test{
+    .background{
+        width: 750px;
+        height: 772px;
+    }
+    .title{
+        margin: 34px auto 0;
+        width:224px;
+        height:26px;
+        font-size:27px;
+        font-family:PingFang SC;
+        font-weight:500;
+        color:rgba(85,85,85,1);
+        line-height:59px;
+    }
+    .step_img{
+        margin-top:51px;
+        margin-bottom: 21px;
+        width: 100%;
+        height: 103px;
+        display: flex;
+        justify-content: space-around;
+        .icon{
+            width: 103px;
+            height: 103px;
+        }
+    }
+    .step_title{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 46px;
+        .step_title_item{
+            padding: 0 14px;
+            width:103px;
+            height:24px;
+            font-size:29px;
+            font-family:CTLiShuSF;
+            font-weight:400;
+            font-style:italic;
+            color:rgba(136,136,136,1);
+            line-height:59px;
+        }
+    }
+    .button{
+        width:665px;
+        height:88px;
+        background:rgba(255,156,0,1);
+        border-radius:6px 6px 6px 6px;
+        margin-left: 42px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        margin-bottom: 32px;
+        .button-title{
+            margin: 0 auto;
+            width:150px;
+            height:30px;
+            font-size:31px;
+            font-family:PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            line-height:30px;
+        }
+    }
+    .footer-title1{
+        width:520px;
+        height:23px;
+        font-size:23px;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(136,136,136,1);
+        line-height:60px;
+        margin-left: 115px;
+        margin-bottom: 60px;
+    }
+    .footer-title2{
+        margin-left: 95px;
+        width:559px;
+        height:19px;
+        font-size:19px;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        line-height:42px;
+    }
+}

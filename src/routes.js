@@ -3,7 +3,6 @@ import Index from './component/Index/index';
 import MobileTest from './component/MobileTest/index';
 
 var Routes = [ 
-
     {
         path: '/',
         exact: true,

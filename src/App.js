@@ -1,5 +1,4 @@
 import React from 'react';
-import Index from './component/Index/index';
 //配置hashRouter 使用独立的router文件
 import { createHashHistory } from 'history';
 import { HashRouter as Router } from 'react-router-dom';
