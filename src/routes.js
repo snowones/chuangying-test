@@ -1,6 +1,6 @@
 import Index from './component/Index/index';
-
 import MobileTest from './component/MobileTest/index';
+import Marquee from './component/Debounce/index';
 
 var Routes = [ 
     {
@@ -17,6 +17,11 @@ var Routes = [
         path: '/mobileTest',
         exact: true,
         component: MobileTest
+    },
+    {
+        path: '/Marquee',
+        exact: true,
+        component: Marquee
     },
 
 ]
